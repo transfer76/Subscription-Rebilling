@@ -1,0 +1,23 @@
+require:
+  - rubocop
+  - rubocop-performance
+
+AllCops:
+  TargetRubyVersion: 3.1.0
+  NewCops: enable
+  inherit_mode: merge
+
+Style/Documentation:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 120
+
+Metrics/BlockLength:
+  IgnoredMethods: ['describe', 'path', 'xdescribe', 'post', 'context', 'it', 'let', 'patch', 'delete', 'get', 'response', 'register']
+  Exclude:
+    - config/environments/*
+
+Metrics/MethodLength:
+  Exclude:
+    - app/services/*

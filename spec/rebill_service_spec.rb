@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require_relative '../services/requests/payment_service'
-require_relative '../services/rebill_service'
-require_relative '../models/subscription'
-require_relative '../workers/partial_rebill_worker'
+require_relative '../app/services/requests/payment_service'
+require_relative '../app/services/rebill_service'
+require_relative '../app/models/subscription'
+require_relative '../app/workers/partial_rebill_worker'
 require 'rspec'
 
 class FakeLogger

@@ -1160,3 +1160,243 @@ W, [2025-02-01T23:22:27.532932 #71923]  WARN -- : Insufficient funds to charge 1
 I, [2025-02-01T23:22:27.532961 #71923]  INFO -- : Attempting to charge 750 for subscription sub_12345
 I, [2025-02-01T23:22:27.533018 #71923]  INFO -- : Successfully charged 750 for subscription sub_12345
 I, [2025-02-01T23:22:27.533045 #71923]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+I, [2025-02-01T23:36:32.390796 #73601]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T23:36:32.392905 #73601]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T23:36:32.393735 #73601]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+I, [2025-02-01T23:36:32.394752 #73601]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:36:32.394879 #73601]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:36:32.395690 #73601]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:36:32.395792 #73601]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:36:32.395824 #73601]  INFO -- : Attempting to charge 750 for subscription sub_12345
+W, [2025-02-01T23:36:32.395884 #73601]  WARN -- : Insufficient funds to charge 750 for subscription sub_12345
+I, [2025-02-01T23:36:32.395910 #73601]  INFO -- : Attempting to charge 500 for subscription sub_12345
+W, [2025-02-01T23:36:32.395966 #73601]  WARN -- : Insufficient funds to charge 500 for subscription sub_12345
+I, [2025-02-01T23:36:32.395991 #73601]  INFO -- : Attempting to charge 250 for subscription sub_12345
+W, [2025-02-01T23:36:32.396045 #73601]  WARN -- : Insufficient funds to charge 250 for subscription sub_12345
+I, [2025-02-01T23:36:32.396777 #73601]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:36:32.396871 #73601]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:36:32.398871 #73601]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:36:32.398994 #73601]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:36:32.399026 #73601]  INFO -- : Attempting to charge 750 for subscription sub_12345
+I, [2025-02-01T23:36:32.399088 #73601]  INFO -- : Successfully charged 750 for subscription sub_12345
+I, [2025-02-01T23:36:32.399117 #73601]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+I, [2025-02-01T23:37:07.287380 #73639]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T23:37:07.290311 #73639]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T23:37:07.291076 #73639]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+I, [2025-02-01T23:37:07.291902 #73639]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:37:07.292016 #73639]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:37:07.292741 #73639]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:37:07.292832 #73639]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:37:07.292863 #73639]  INFO -- : Attempting to charge 750 for subscription sub_12345
+W, [2025-02-01T23:37:07.292923 #73639]  WARN -- : Insufficient funds to charge 750 for subscription sub_12345
+I, [2025-02-01T23:37:07.292949 #73639]  INFO -- : Attempting to charge 500 for subscription sub_12345
+W, [2025-02-01T23:37:07.293324 #73639]  WARN -- : Insufficient funds to charge 500 for subscription sub_12345
+I, [2025-02-01T23:37:07.293354 #73639]  INFO -- : Attempting to charge 250 for subscription sub_12345
+W, [2025-02-01T23:37:07.293412 #73639]  WARN -- : Insufficient funds to charge 250 for subscription sub_12345
+I, [2025-02-01T23:37:07.294049 #73639]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:37:07.294132 #73639]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:37:07.296704 #73639]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:37:07.296850 #73639]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:37:07.296882 #73639]  INFO -- : Attempting to charge 750 for subscription sub_12345
+I, [2025-02-01T23:37:07.296944 #73639]  INFO -- : Successfully charged 750 for subscription sub_12345
+I, [2025-02-01T23:37:07.296975 #73639]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+I, [2025-02-01T23:41:55.121421 #73716]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T23:41:55.123268 #73716]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T23:41:55.124029 #73716]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+I, [2025-02-01T23:41:55.124972 #73716]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:41:55.125099 #73716]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:41:55.125889 #73716]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:41:55.125988 #73716]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:41:55.126020 #73716]  INFO -- : Attempting to charge 750 for subscription sub_12345
+W, [2025-02-01T23:41:55.126083 #73716]  WARN -- : Insufficient funds to charge 750 for subscription sub_12345
+I, [2025-02-01T23:41:55.126110 #73716]  INFO -- : Attempting to charge 500 for subscription sub_12345
+W, [2025-02-01T23:41:55.126171 #73716]  WARN -- : Insufficient funds to charge 500 for subscription sub_12345
+I, [2025-02-01T23:41:55.126197 #73716]  INFO -- : Attempting to charge 250 for subscription sub_12345
+W, [2025-02-01T23:41:55.126255 #73716]  WARN -- : Insufficient funds to charge 250 for subscription sub_12345
+I, [2025-02-01T23:41:55.126932 #73716]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:41:55.127025 #73716]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:41:55.129298 #73716]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:41:55.129463 #73716]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:41:55.129505 #73716]  INFO -- : Attempting to charge 750 for subscription sub_12345
+I, [2025-02-01T23:41:55.129576 #73716]  INFO -- : Successfully charged 750 for subscription sub_12345
+I, [2025-02-01T23:41:55.129609 #73716]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+I, [2025-02-01T23:44:22.446453 #74449]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T23:44:22.449118 #74449]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T23:44:22.450092 #74449]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+I, [2025-02-01T23:44:22.451177 #74449]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:44:22.451313 #74449]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:44:22.458685 #74449]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:44:22.458899 #74449]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:44:22.458951 #74449]  INFO -- : Attempting to charge 750 for subscription sub_12345
+W, [2025-02-01T23:44:22.459056 #74449]  WARN -- : Insufficient funds to charge 750 for subscription sub_12345
+I, [2025-02-01T23:44:22.459100 #74449]  INFO -- : Attempting to charge 500 for subscription sub_12345
+W, [2025-02-01T23:44:22.459199 #74449]  WARN -- : Insufficient funds to charge 500 for subscription sub_12345
+I, [2025-02-01T23:44:22.459240 #74449]  INFO -- : Attempting to charge 250 for subscription sub_12345
+W, [2025-02-01T23:44:22.459336 #74449]  WARN -- : Insufficient funds to charge 250 for subscription sub_12345
+I, [2025-02-01T23:44:22.460561 #74449]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:44:22.460704 #74449]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:44:22.463362 #74449]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:44:22.463505 #74449]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:44:22.463546 #74449]  INFO -- : Attempting to charge 750 for subscription sub_12345
+I, [2025-02-01T23:44:22.463615 #74449]  INFO -- : Successfully charged 750 for subscription sub_12345
+I, [2025-02-01T23:44:22.463652 #74449]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+I, [2025-02-01T23:47:58.134682 #74917]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T23:47:58.137207 #74917]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T23:47:58.138080 #74917]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+I, [2025-02-01T23:47:58.138930 #74917]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:47:58.139043 #74917]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:47:58.139808 #74917]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:47:58.139905 #74917]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:47:58.139937 #74917]  INFO -- : Attempting to charge 750 for subscription sub_12345
+W, [2025-02-01T23:47:58.139998 #74917]  WARN -- : Insufficient funds to charge 750 for subscription sub_12345
+I, [2025-02-01T23:47:58.140024 #74917]  INFO -- : Attempting to charge 500 for subscription sub_12345
+W, [2025-02-01T23:47:58.140080 #74917]  WARN -- : Insufficient funds to charge 500 for subscription sub_12345
+I, [2025-02-01T23:47:58.140109 #74917]  INFO -- : Attempting to charge 250 for subscription sub_12345
+W, [2025-02-01T23:47:58.140180 #74917]  WARN -- : Insufficient funds to charge 250 for subscription sub_12345
+I, [2025-02-01T23:47:58.140870 #74917]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:47:58.140950 #74917]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:47:58.142923 #74917]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:47:58.143031 #74917]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:47:58.143061 #74917]  INFO -- : Attempting to charge 750 for subscription sub_12345
+I, [2025-02-01T23:47:58.143122 #74917]  INFO -- : Successfully charged 750 for subscription sub_12345
+I, [2025-02-01T23:47:58.143149 #74917]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+I, [2025-02-01T23:51:57.451524 #75283]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T23:51:57.453648 #75283]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T23:51:57.454445 #75283]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+I, [2025-02-01T23:51:57.455269 #75283]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:51:57.455386 #75283]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:51:57.456107 #75283]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:51:57.456198 #75283]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:51:57.456228 #75283]  INFO -- : Attempting to charge 750 for subscription sub_12345
+W, [2025-02-01T23:51:57.456342 #75283]  WARN -- : Insufficient funds to charge 750 for subscription sub_12345
+I, [2025-02-01T23:51:57.456393 #75283]  INFO -- : Attempting to charge 500 for subscription sub_12345
+W, [2025-02-01T23:51:57.456466 #75283]  WARN -- : Insufficient funds to charge 500 for subscription sub_12345
+I, [2025-02-01T23:51:57.456496 #75283]  INFO -- : Attempting to charge 250 for subscription sub_12345
+W, [2025-02-01T23:51:57.456552 #75283]  WARN -- : Insufficient funds to charge 250 for subscription sub_12345
+I, [2025-02-01T23:51:57.457426 #75283]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:51:57.457538 #75283]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:51:57.459654 #75283]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:51:57.459774 #75283]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:51:57.459807 #75283]  INFO -- : Attempting to charge 750 for subscription sub_12345
+I, [2025-02-01T23:51:57.459870 #75283]  INFO -- : Successfully charged 750 for subscription sub_12345
+I, [2025-02-01T23:51:57.459899 #75283]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+I, [2025-02-01T23:55:44.782658 #75664]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T23:55:44.785524 #75664]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T23:55:44.786501 #75664]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+I, [2025-02-01T23:55:44.788045 #75664]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:55:44.788277 #75664]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:55:44.790325 #75664]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:55:44.790766 #75664]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:55:44.790955 #75664]  INFO -- : Attempting to charge 750 for subscription sub_12345
+W, [2025-02-01T23:55:44.791191 #75664]  WARN -- : Insufficient funds to charge 750 for subscription sub_12345
+I, [2025-02-01T23:55:44.791255 #75664]  INFO -- : Attempting to charge 500 for subscription sub_12345
+W, [2025-02-01T23:55:44.791340 #75664]  WARN -- : Insufficient funds to charge 500 for subscription sub_12345
+I, [2025-02-01T23:55:44.791370 #75664]  INFO -- : Attempting to charge 250 for subscription sub_12345
+W, [2025-02-01T23:55:44.791511 #75664]  WARN -- : Insufficient funds to charge 250 for subscription sub_12345
+I, [2025-02-01T23:55:44.792543 #75664]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:55:44.792653 #75664]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:55:44.795658 #75664]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:55:44.795797 #75664]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:55:44.795863 #75664]  INFO -- : Attempting to charge 750 for subscription sub_12345
+I, [2025-02-01T23:55:44.795950 #75664]  INFO -- : Successfully charged 750 for subscription sub_12345
+I, [2025-02-01T23:55:44.795983 #75664]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+I, [2025-02-01T23:58:30.302994 #76151]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T23:58:30.305912 #76151]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T23:58:30.306834 #76151]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+I, [2025-02-01T23:58:30.308612 #76151]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:58:30.308783 #76151]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:58:30.309906 #76151]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:58:30.310014 #76151]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:58:30.310046 #76151]  INFO -- : Attempting to charge 750 for subscription sub_12345
+W, [2025-02-01T23:58:30.310106 #76151]  WARN -- : Insufficient funds to charge 750 for subscription sub_12345
+I, [2025-02-01T23:58:30.310132 #76151]  INFO -- : Attempting to charge 500 for subscription sub_12345
+W, [2025-02-01T23:58:30.310185 #76151]  WARN -- : Insufficient funds to charge 500 for subscription sub_12345
+I, [2025-02-01T23:58:30.310209 #76151]  INFO -- : Attempting to charge 250 for subscription sub_12345
+W, [2025-02-01T23:58:30.310264 #76151]  WARN -- : Insufficient funds to charge 250 for subscription sub_12345
+I, [2025-02-01T23:58:30.311088 #76151]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:58:30.311172 #76151]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:58:30.313866 #76151]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:58:30.314033 #76151]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:58:30.314070 #76151]  INFO -- : Attempting to charge 750 for subscription sub_12345
+I, [2025-02-01T23:58:30.314136 #76151]  INFO -- : Successfully charged 750 for subscription sub_12345
+I, [2025-02-01T23:58:30.314169 #76151]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+I, [2025-02-01T23:59:24.006703 #76204]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T23:59:24.009324 #76204]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T23:59:24.010176 #76204]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+I, [2025-02-01T23:59:24.011519 #76204]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:59:24.011810 #76204]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:59:24.012873 #76204]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:59:24.012991 #76204]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:59:24.013025 #76204]  INFO -- : Attempting to charge 750 for subscription sub_12345
+W, [2025-02-01T23:59:24.013402 #76204]  WARN -- : Insufficient funds to charge 750 for subscription sub_12345
+I, [2025-02-01T23:59:24.013565 #76204]  INFO -- : Attempting to charge 500 for subscription sub_12345
+W, [2025-02-01T23:59:24.013830 #76204]  WARN -- : Insufficient funds to charge 500 for subscription sub_12345
+I, [2025-02-01T23:59:24.013952 #76204]  INFO -- : Attempting to charge 250 for subscription sub_12345
+W, [2025-02-01T23:59:24.014180 #76204]  WARN -- : Insufficient funds to charge 250 for subscription sub_12345
+I, [2025-02-01T23:59:24.016117 #76204]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:59:24.016228 #76204]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-01T23:59:24.018214 #76204]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-01T23:59:24.018324 #76204]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-01T23:59:24.018356 #76204]  INFO -- : Attempting to charge 750 for subscription sub_12345
+I, [2025-02-01T23:59:24.018417 #76204]  INFO -- : Successfully charged 750 for subscription sub_12345
+I, [2025-02-01T23:59:24.018445 #76204]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+I, [2025-02-02T00:06:44.498507 #76965]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-02T00:06:44.502113 #76965]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-02T00:06:44.503030 #76965]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+I, [2025-02-02T00:06:44.504117 #76965]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-02T00:06:44.504266 #76965]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-02T00:06:44.505195 #76965]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-02T00:06:44.505332 #76965]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-02T00:06:44.505393 #76965]  INFO -- : Attempting to charge 750 for subscription sub_12345
+W, [2025-02-02T00:06:44.505474 #76965]  WARN -- : Insufficient funds to charge 750 for subscription sub_12345
+I, [2025-02-02T00:06:44.505502 #76965]  INFO -- : Attempting to charge 500 for subscription sub_12345
+W, [2025-02-02T00:06:44.505568 #76965]  WARN -- : Insufficient funds to charge 500 for subscription sub_12345
+I, [2025-02-02T00:06:44.505594 #76965]  INFO -- : Attempting to charge 250 for subscription sub_12345
+W, [2025-02-02T00:06:44.505658 #76965]  WARN -- : Insufficient funds to charge 250 for subscription sub_12345
+I, [2025-02-02T00:06:44.506488 #76965]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-02T00:06:44.506595 #76965]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-02T00:06:44.508619 #76965]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-02T00:06:44.508764 #76965]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-02T00:06:44.508798 #76965]  INFO -- : Attempting to charge 750 for subscription sub_12345
+I, [2025-02-02T00:06:44.508877 #76965]  INFO -- : Successfully charged 750 for subscription sub_12345
+I, [2025-02-02T00:06:44.508911 #76965]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+I, [2025-02-02T00:14:47.752140 #77888]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-02T00:14:47.755823 #77888]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-02T00:14:47.756837 #77888]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+I, [2025-02-02T00:14:47.757911 #77888]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-02T00:14:47.758073 #77888]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-02T00:14:47.759468 #77888]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-02T00:14:47.759908 #77888]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-02T00:14:47.760062 #77888]  INFO -- : Attempting to charge 750 for subscription sub_12345
+W, [2025-02-02T00:14:47.760347 #77888]  WARN -- : Insufficient funds to charge 750 for subscription sub_12345
+I, [2025-02-02T00:14:47.760392 #77888]  INFO -- : Attempting to charge 500 for subscription sub_12345
+W, [2025-02-02T00:14:47.760552 #77888]  WARN -- : Insufficient funds to charge 500 for subscription sub_12345
+I, [2025-02-02T00:14:47.760606 #77888]  INFO -- : Attempting to charge 250 for subscription sub_12345
+W, [2025-02-02T00:14:47.760721 #77888]  WARN -- : Insufficient funds to charge 250 for subscription sub_12345
+I, [2025-02-02T00:14:47.763403 #77888]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-02T00:14:47.763852 #77888]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-02T00:14:47.766120 #77888]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-02T00:14:47.766274 #77888]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-02T00:14:47.766312 #77888]  INFO -- : Attempting to charge 750 for subscription sub_12345
+I, [2025-02-02T00:14:47.766388 #77888]  INFO -- : Successfully charged 750 for subscription sub_12345
+I, [2025-02-02T00:14:47.766421 #77888]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+I, [2025-02-02T00:19:53.872172 #78327]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-02T00:19:53.874330 #78327]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-02T00:19:53.875357 #78327]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+I, [2025-02-02T00:19:53.876918 #78327]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-02T00:19:53.877069 #78327]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-02T00:19:53.878051 #78327]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-02T00:19:53.878155 #78327]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-02T00:19:53.878186 #78327]  INFO -- : Attempting to charge 750 for subscription sub_12345
+W, [2025-02-02T00:19:53.878254 #78327]  WARN -- : Insufficient funds to charge 750 for subscription sub_12345
+I, [2025-02-02T00:19:53.878280 #78327]  INFO -- : Attempting to charge 500 for subscription sub_12345
+W, [2025-02-02T00:19:53.878343 #78327]  WARN -- : Insufficient funds to charge 500 for subscription sub_12345
+I, [2025-02-02T00:19:53.878368 #78327]  INFO -- : Attempting to charge 250 for subscription sub_12345
+W, [2025-02-02T00:19:53.878427 #78327]  WARN -- : Insufficient funds to charge 250 for subscription sub_12345
+I, [2025-02-02T00:19:53.879399 #78327]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-02T00:19:53.879528 #78327]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-02T00:19:53.881702 #78327]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-02T00:19:53.881870 #78327]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-02T00:19:53.881903 #78327]  INFO -- : Attempting to charge 750 for subscription sub_12345
+I, [2025-02-02T00:19:53.881979 #78327]  INFO -- : Successfully charged 750 for subscription sub_12345
+I, [2025-02-02T00:19:53.882006 #78327]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.

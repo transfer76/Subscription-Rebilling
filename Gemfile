@@ -27,6 +27,7 @@ end
 
 group :test do
   gem 'rspec', '~> 3.13'
+  gem 'rack-test', '~> 2.1'
   gem 'shoulda-matchers', '~> 5.1'
   gem 'simplecov', '~> 0.21', require: false
   gem 'webmock'

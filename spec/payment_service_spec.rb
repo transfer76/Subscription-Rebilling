@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../services/requests/payment_service'
+require_relative '../app/services/requests/payment_service'
 require 'rspec'
 
 RSpec.describe Requests::PaymentService do

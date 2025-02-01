@@ -10,6 +10,7 @@ gem 'json', '~>2.6'
 gem 'redis', '~> 5.2'
 gem 'sidekiq', '~>7.1'
 gem 'sinatra', '~> 2.2'
+gem 'sinatra-activerecord', '~> 2.0'
 gem 'sinatra-contrib', '~> 2.2', require: false
 
 group :development, :test do

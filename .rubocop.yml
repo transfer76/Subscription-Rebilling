@@ -21,3 +21,7 @@ Metrics/BlockLength:
 Metrics/MethodLength:
   Exclude:
     - app/services/*
+
+Lint/MissingSuper:
+  Exclude:
+    - 'app/services/**/*'

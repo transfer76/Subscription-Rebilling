@@ -1,9 +1,11 @@
 # frozen_string_literal: true
 
-require_relative '../model/subscription'
+require_relative '../models/subscription'
+require_relative '../workers/partial_rebill_worker'
 require_relative 'requests/payment_service'
 require 'logger'
 require 'sidekiq'
+require 'pry'
 
 # Class is responsible for schedule rebill process
 class RebillService
@@ -32,22 +34,22 @@ class RebillService
   private
 
   def payment_bill(amount_to_charge)
-    params = { subscription_id: @subscription.id, amount_to_charge: amount_to_charge }
+    params = { amount: amount_to_charge, subscription_id: @subscription.id }
 
-    PaymentService.new(params).call
+    Requests::PaymentService.new(params:).call
   end
 
   def handle_response(response, amount_to_charge)
     case response[:status]
     when 'success'
-      @loger.info("Successfully charged #{amount_charged} for subscription #{@subscription.id}")
+      @logger.info("Successfully charged #{amount_to_charge} for subscription #{@subscription.id}")
 
       if amount_to_charge < @subscription.amount
         remaining_balance = @subscription.amount - amount_to_charge
         schedule_partial_rebill(remaining_balance)
       end
     when 'insufficient_funds'
-      @logger.warn("Insufficient funds to charge #{amount_charged} for subscription #{@subscription.id}")
+      @logger.warn("Insufficient funds to charge #{amount_to_charge} for subscription #{@subscription.id}")
     else
       @logger.error("Payment failed for subscription #{@subscription.id} with status: #{response[:status]}")
     end
@@ -55,6 +57,6 @@ class RebillService
 
   def schedule_partial_rebill(remaining_balance)
     @logger.info("Scheduling partial rebill of #{remaining_balance} for subscription #{@subscription.id} in one week.")
-    PartialRebillWorker.perform_in(7 * 24 * 60 * 60, @subscription.id, remaining_balance)
+    Workers::PartialRebillWorker.perform_in(7 * 24 * 60 * 60, @subscription.id, remaining_balance)
   end
 end

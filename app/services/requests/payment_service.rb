@@ -9,7 +9,7 @@ module Requests
     PAYMENT_URL = '/paymentIntents/create'
 
     def initialize(params: {}, logger: Logger.new('logs/rebill.log'))
-      @amount_to_charge = params[:amount_to_charge]
+      @amount_to_charge = params[:amount]
       @subscription_id = params[:subscription_id]
       @logger = logger
     end
@@ -40,7 +40,7 @@ module Requests
 
     def request_params
       @request_params ||= {
-        amount: @amount,
+        amount: @amount_to_charge,
         subscription_id: @subscription_id
       }
     end

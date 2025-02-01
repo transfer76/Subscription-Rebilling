@@ -8,9 +8,9 @@ module Requests
   class PaymentService < ::Requests::Base
     PAYMENT_URL = '/paymentIntents/create'
 
-    def initialize(subscription:, logger: Logger.new('logs/rebill.log'))
-      @amount = subscription.amount
-      @subscription_id = subscription.id
+    def initialize(params: {}, logger: Logger.new('logs/rebill.log'))
+      @amount_to_charge = params[:amount_to_charge]
+      @subscription_id = params[:subscription_id]
       @logger = logger
     end
 
@@ -20,7 +20,7 @@ module Requests
     # {
     #   status: 'SUCCESS', 'INSUFFICIENT_FUNDS', 'FAILED'
     #   total_left_ballance: 100
-    def self.call
+    def call
       parse_response_body(response: make_request)
     end
 

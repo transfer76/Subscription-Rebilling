@@ -2,6 +2,7 @@
 
 require 'faraday'
 require 'uri'
+require 'dotenv/load'
 
 module Requests
   # Base Class for requests
@@ -26,7 +27,7 @@ module Requests
     end
 
     def parse_response_body(response:)
-      JSON(response.body).with_indifferent_access
+      JSON(response.body)
     end
   end
 end

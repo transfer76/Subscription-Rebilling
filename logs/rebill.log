@@ -1,0 +1,23 @@
+# Logfile created on 2025-02-01 19:39:17 +0200 by logger.rb/v1.6.5
+I, [2025-02-01T19:58:00.723379 #49635]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T19:58:48.313815 #49735]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T20:02:39.885439 #49863]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T20:03:10.942467 #49863]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T20:03:44.720190 #49863]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T20:04:11.880796 #50207]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T20:06:14.644988 #50329]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T20:07:24.458356 #50377]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T20:11:24.910733 #50933]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T20:11:24.913253 #50933]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T20:14:39.089353 #51450]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T20:14:39.092156 #51450]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T20:14:39.093329 #51450]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: 
+I, [2025-02-01T20:16:20.341845 #51522]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T20:16:20.344164 #51522]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T20:16:20.345226 #51522]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: 
+I, [2025-02-01T20:16:46.610706 #51547]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T20:16:46.613682 #51547]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T20:16:46.617475 #51547]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {}
+I, [2025-02-01T20:18:39.731798 #51648]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T20:18:39.734970 #51648]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T20:18:39.735914 #51648]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}

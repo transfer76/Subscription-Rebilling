@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require 'faraday_middleware'
 require 'logger'
+require_relative '../requests/base'
 
 module Requests
   # Class is responsible for payment request
@@ -29,7 +29,7 @@ module Requests
     def make_request
       response = connection_setup.post(remote_uri, @request_params.to_json)
 
-      log_request(response_body: response_body)
+      log_request(response_body: response.body)
 
       response
     end

@@ -2,7 +2,7 @@
 
 require_relative '../model/subscription'
 require_relative 'requests/payment_service'
-require 'loger'
+require 'logger'
 require 'sidekiq'
 
 # Class is responsible for schedule rebill process

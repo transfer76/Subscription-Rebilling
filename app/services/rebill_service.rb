@@ -5,7 +5,6 @@ require_relative '../workers/partial_rebill_worker'
 require_relative 'requests/payment_service'
 require 'logger'
 require 'sidekiq'
-require 'pry'
 
 # Class is responsible for schedule rebill process
 class RebillService

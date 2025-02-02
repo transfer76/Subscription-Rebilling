@@ -16,7 +16,7 @@ RSpec.describe 'Subscription Rebilling App' do
 
     context 'with valid input' do
       it 'initiates the rebill process and returns a success message' do
-        allow(Requests::PaymentService).to receive(:call).and_return({ status: 'success' })
+        allow(Requests::PaymentService.new).to receive(:call).and_return({ status: 'success' })
 
         post '/rebill', { subscription_id: 'sub_12345', amount: 1000 }.to_json, { 'CONTENT_TYPE' => 'application/json' }
 

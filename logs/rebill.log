@@ -1400,3 +1400,23 @@ W, [2025-02-02T00:19:53.881870 #78327]  WARN -- : Insufficient funds to charge 1
 I, [2025-02-02T00:19:53.881903 #78327]  INFO -- : Attempting to charge 750 for subscription sub_12345
 I, [2025-02-02T00:19:53.881979 #78327]  INFO -- : Successfully charged 750 for subscription sub_12345
 I, [2025-02-02T00:19:53.882006 #78327]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+I, [2025-02-02T10:58:41.402049 #86864]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-02T10:58:41.405201 #86864]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-02T10:58:41.406325 #86864]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+I, [2025-02-02T10:58:41.407427 #86864]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-02T10:58:41.407578 #86864]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-02T10:58:41.408452 #86864]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-02T10:58:41.408577 #86864]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-02T10:58:41.408654 #86864]  INFO -- : Attempting to charge 750 for subscription sub_12345
+W, [2025-02-02T10:58:41.408805 #86864]  WARN -- : Insufficient funds to charge 750 for subscription sub_12345
+I, [2025-02-02T10:58:41.408866 #86864]  INFO -- : Attempting to charge 500 for subscription sub_12345
+W, [2025-02-02T10:58:41.408936 #86864]  WARN -- : Insufficient funds to charge 500 for subscription sub_12345
+I, [2025-02-02T10:58:41.408964 #86864]  INFO -- : Attempting to charge 250 for subscription sub_12345
+W, [2025-02-02T10:58:41.409027 #86864]  WARN -- : Insufficient funds to charge 250 for subscription sub_12345
+I, [2025-02-02T10:58:41.410490 #86864]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+I, [2025-02-02T10:58:41.410657 #86864]  INFO -- : Successfully charged 1000 for subscription sub_12345
+I, [2025-02-02T10:58:41.412652 #86864]  INFO -- : Attempting to charge 1000 for subscription sub_12345
+W, [2025-02-02T10:58:41.412771 #86864]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-02T10:58:41.412803 #86864]  INFO -- : Attempting to charge 750 for subscription sub_12345
+I, [2025-02-02T10:58:41.412868 #86864]  INFO -- : Successfully charged 750 for subscription sub_12345
+I, [2025-02-02T10:58:41.412895 #86864]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.

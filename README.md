@@ -25,7 +25,7 @@ This is a Ruby-based system for handling automatic subscription rebilling. It re
    ```
 3. Start the mock payment gateway:
    ```bash
-   ruby mock_payment_gateway.rb
+   ruby app/controllers/mock_payment_gateway.rb
    ```
 4. Start the Sinatra app:
    ```bash

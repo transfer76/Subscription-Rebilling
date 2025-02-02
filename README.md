@@ -44,12 +44,12 @@ This is a Ruby-based system for handling automatic subscription rebilling. It re
        "amount": 1000
      }
      ```
-    - Responses:
-    ```json
-    {
-      "message": "Rebill process initiated"
-    }
-    ```
+     - Responses:
+     ```json
+     {
+       "message": "Rebill process initiated"
+     }
+     ```
 ## Testing
 Run the tests using the following command:
 ```bash
@@ -63,6 +63,14 @@ bundle exec rubocop
 ```
 ## Logs
 All rebilling attempts and results are logged in **logs/rebill.log
-
+Examples of logs:
+```
+# Logfile created on 2025-02-01 19:39:17 +0200 by logger.rb/v1.6.5
+I, [2025-02-01T20:11:24.910733 #50933]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"success"}
+I, [2025-02-01T20:11:24.913253 #50933]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"insufficient_funds"}
+I, [2025-02-01T20:18:39.735914 #51648]  INFO -- : PAYMENT_REQUEST. Uri: https://example.com/paymentIntents/create, Params: null, Response: {"status":"failed"}
+W, [2025-02-02T00:19:53.878155 #78327]  WARN -- : Insufficient funds to charge 1000 for subscription sub_12345
+I, [2025-02-02T00:19:53.882006 #78327]  INFO -- : Scheduling partial rebill of 250 for subscription sub_12345 in one week.
+```
 ## Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss the changes.
